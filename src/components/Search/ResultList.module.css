@@ -1,0 +1,26 @@
+.loading {
+  text-align: center;
+  color: white;
+  background: var(--gray6);
+}
+
+.error {
+  text-align: center;
+  color: red;
+  background: var(--gray6);
+}
+
+.title {
+  background: black;
+  color: white;
+  padding-top: 2rem;
+}
+
+.resultlist {
+  background: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+}

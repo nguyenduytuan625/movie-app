@@ -1,0 +1,27 @@
+.movie:hover {
+  animation: bump 300ms ease-out;
+  transform: scale(1.1);
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(0.85);
+  }
+
+  50% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.movie.big {
+  transform: scale(1.1);
+  border-bottom: 1px solid white;
+}
+
+.movie img {
+  height: 100%;
+}
